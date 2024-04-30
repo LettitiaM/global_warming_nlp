@@ -28,6 +28,6 @@ def result():
     
         return render_template("result.html", prediction = prediction)
     
-
+1
 if __name__ == "__main__":
     app.run(host="127.0.0.1", port=5534, debug=True)
